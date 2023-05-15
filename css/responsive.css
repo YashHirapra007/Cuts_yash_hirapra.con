@@ -1,0 +1,29 @@
+@media(max-width:1200px){
+  .containt img{
+    margin-bottom: 10px;
+  }
+  .containt h2{
+    font-size: 40px;
+  }
+  .containt p{
+    font-size: 15px;
+  }
+  .btn a{
+    padding: 10px 10px;
+  }
+}
+
+@media(max-width: 992px){
+  .navbar-btn{
+    display: block !important;
+  }
+  .navbar{
+    display: none !important;
+  }
+  .footer-main .col-6 h3{
+    font-size: 12px;
+  }
+  .navbar-btn{
+    color: var(--font-color);
+  }
+}
